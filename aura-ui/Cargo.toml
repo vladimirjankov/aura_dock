@@ -1,0 +1,11 @@
+[package]
+name = "aura-ui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk = { version = "0.8", package = "gtk4" }
+tokio = { version = "1.0", features = ["sync", "rt"] }
+glib = "0.19"
+aura-core = { path = "../aura-core" }
+aura-assets = { path = "../aura-assets" }
